@@ -1,28 +1,15 @@
-import React, { useState, useEffect } from 'react'
-import Header from './components/Header'
-import Cards from './components/Cards'
-import './App.css'
-// import Header from "./components/Header"
-import Region from './Region.jsx'
+import React, { useState } from "react"
+import "./Cards.css"
 
+export default function Cards({ countryName, countryCapital }) {
+  const [toggle, setToggle] = useState(false);
 
-function App() {
-  const [currentPage, setCurrentPage] = useState(0);
+  const handleToggle = () => {
+    setToggle(!toggle)
 
-
-  const handleNav = (page) => {
-    setCurrentPage(page)
+    
   }
-
-  return (
-    <>
-			<Header title="Countries & Capitals Study Cards" handleNav={handleNav} />
-      {currentPage == 0 && (<Region />)}
-			{currentPage == 1 && (<Cards />)}
-    </>
-  );
-}
-// <main>
+	// <main>
       //   <h2>Click here for capitals flashcards</h2>
       //   <div className="regionselection">
       //     <section>
@@ -57,4 +44,16 @@ function App() {
       //   </nav>
       // </main>
 
-export default App;
+  return (
+    <div onClick={handleToggle} className="Cards" >
+      <h1>Country: {countryName}</h1>
+      {toggle && (<h2>Capital: {countryCapital}</h2>)}
+    </div>
+  )
+
+  // return (
+  //   <div className="Cards" >
+  //     <h1>Sus</h1>
+  //   </div>
+  // )
+}

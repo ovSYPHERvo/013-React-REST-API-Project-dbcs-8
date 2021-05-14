@@ -1,0 +1,36 @@
+
+.Cards {
+    margin-right: 1rem; 
+    margin-bottom: 1rem; 
+    margin-left: 1rem; 
+    margin-top: 1rem;
+		background: rgba(2, 5, 77, 0.897);
+    width: 200px;
+    border-radius: 15px;
+    color: rgb(251, 255, 10);
+    text-transform: capitalize;
+    display: flex;
+	  align-items: center;
+	  flex-wrap: wrap;
+	  padding: 30px;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+
+main h1 {
+    text-transform: uppercase;
+		color: rgb(251, 255, 10);
+}
+main h2 {
+	  text-align: center;
+    color: rgb(251, 255, 10);
+} 
+.blue {
+  background: #02054d;
+  color: rgb(251, 255, 10);
+}
+.yellow {
+  background:  rgb(251, 255, 10);
+  color: #02054d;
+}
+

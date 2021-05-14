@@ -1,22 +1,12 @@
-main {
+/* main {
   text-align: center;
   vertical-align: center;
 }
 
 main h2 {
     text-transform: uppercase;
-		text-decoration: overline;
-		text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.638);
-		color: rgba(21, 250, 0, 0.897);
 }
-.regionselection {
-	display: flex;
-	align-items: center;
-	flex-wrap: wrap;
-	/* max-width: 900px; */
-	padding: 30px;
-	justify-content: center;
-}
+
 main section {
     max-width: 1200px;
     margin: 0 auto;
@@ -30,4 +20,4 @@ main nav {
     margin: 2rem auto;
     display: flex;
     justify-content: space-between;
-}
+} */

@@ -1,0 +1,39 @@
+header {
+    margin-bottom: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(2, 5, 77);
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+h1 a {
+		padding-left: 1em;
+    color: rgb(251, 255, 10);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    text-decoration: underline;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    margin-left: 2rem;
+    color: rgb(251, 255, 10);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}

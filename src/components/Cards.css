@@ -1,0 +1,19 @@
+.category {
+    width: 100px;
+    padding: 5rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    text-transform: capitalize;
+}
+/* .category:hover {
+	width: 300px
+} */
+.blue {
+    background: #02054d;
+    color: rgb(251, 255, 10);
+}
+.yellow {
+      background:  rgb(251, 255, 10);
+      color: #02054d;
+}
